@@ -14,8 +14,6 @@ function clearDisplay() {
 // Function to calculate the result
 function calculate() {
     try {
-        // Using eval() - Note: eval() is generally not recommended for real applications
-        // but it's simpler for learning purposes
         display.value = eval(display.value);
     } catch (error) {
         display.value = 'Error';
